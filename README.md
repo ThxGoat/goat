@@ -7,6 +7,8 @@
     (false, but good answer)
     
     - Walking very carefully?
-    - The goats live in an area with high winds and shifting sands. A sand dune covered a tree, the goats climbed up the sand dune, and then another windstorm blew the sand away, leaving goats in a tree?
+    - The goats live in an area with high winds and shifting sands. 
+      A sand dune covered a tree, the goats climbed up the sand dune, and then 
+      a later windstorm blew the sand away, leaving goats in a tree?
 
 [Photo © Oliver Laumann](http://www.flickr.com/photos/oliverlaumann/8119142781/in/photostream/)
