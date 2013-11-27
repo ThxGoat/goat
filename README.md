@@ -15,5 +15,10 @@
       A sand dune covered a tree, the goats climbed up the sand dune, and then 
       a later windstorm blew the sand away, leaving goats in a tree?
 
+-
+
+    - The Invisible Hand?
+    - The Visible Feet? http://www.youtube.com/watch?v=oQev3UoGp2M
+
 
 [Photo © Oliver Laumann](http://www.flickr.com/photos/oliverlaumann/8119142781/in/photostream/)
