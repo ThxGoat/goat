@@ -68,7 +68,6 @@ body {
 	color:#333;
 	}
 section {
-	/*padding:5%;*/
 	text-align:center;
 	height:100vh;
 	}
@@ -117,12 +116,6 @@ input[type='text'] {
 section.cover {
 	background:url(images/crab.gif) 100% no-repeat;
 	background-size:cover;
-	}
-section.cover h1 {
-	color:#fff;
-	}
-section.cover h1 span {
-	color:#333;
 	}
 section.past {
 	background:url(images/goat.gif) no-repeat; /* goat not working? */
