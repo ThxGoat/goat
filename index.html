@@ -21,30 +21,29 @@
 </head>
 <body>
   <section class='cover'>
-    <h1>11/28/2013</h1>
-    <h1>we roast for goatsgiving - thx</h1>
-    <p class='rsvp'>R.S.V.P</p>
+    <h1>3/8/2014</h1>
+    <h1><span>♯thxgumbo</span> on instagram</h1>
   </section>
-  <section class='form'>
-    <h1>goat roast 11/28^</h1>
-    <h1>from dawn to dawn</h1>
+  <section class='past'>
+    <h1>In the past:</h1>
+    <h1>11/28/2013</h1>
+    <h1>ThxGoat</h1>
     <ul class='social'>
       <li><a href='http://statigr.am/tag/thxgoat' target='_blank'><i class="fa fa-instagram"></i></a></li>
       <li><a href='https://www.facebook.com/events/354002451411260/?source=1' target='_blank'><i class="fa fa-facebook"></i></a></li>
       <li><a href='https://twitter.com/thxgoat' target='_blank'><i class="fa fa-twitter"></i></a></li>
       <li><a href='https://github.com/ThxGoat/thxgoat.github.io' target='_blank'><i class="fa fa-github"></i></a></li>
-      <li><a href='mailto:thx.mmm.goat@gmail.com'><i class="fa fa-envelope-o"></i></a></li>
+      <!-- <li><a href='mailto:thx.mmm.goat@gmail.com'><i class="fa fa-envelope-o"></i></a></li> -->
     </ul>
-  	{% include google-form.html %}
-    <small>^We are all in for a good time. So there will be vegetarian-friendly options on-site. </small>
+    <ul class='photos'>
+    </ul>
   </section>
   <section class='footer'>
-    <small>Brought to you by <a href='https://twitter.com/jue_yang'>@jue_yang</a> and <a href='https://twitter.com/dereklieu'>@dereklieu</a>. Serendipitous <a href='http://giphy.com/gifs/DoucuFWol5Hlm' target='blank'>cover</a> and <a href='http://giphy.com/gifs/12QvPuEx07MNRS' target='blank'>footer</a> found on Giphy</small>
+    <small>Brought to you by <a href='https://twitter.com/jue_yang'>Jue</a>, <a href='https://twitter.com/sfrostenson'>Sarah</a> and <a href='https://twitter.com/dereklieu'>Derek</a>. <a href='http://giphy.com/gifs/vmqQI7fUtNG3m' target='blank'>Crab</a> and <a href='http://giphy.com/gifs/DoucuFWol5Hlm' target='blank'>goat</a> found on Giphy.</small>
   </section>
 </body>
 <script>
-  var coverKids = $('section.cover').children(),
-      formKids = $('section.form').children();
+  var kids = $('section').children();
 
   function fadeInDown(elements) {
     $(elements).css('opacity',0);
@@ -60,10 +59,5 @@
     }, 800);
   }
 
-  fadeInDown(coverKids);
-
-  $('.rsvp').on('click',function(){
-    smoothScroll($('.form').offset().top);
-    fadeInDown(formKids);
-  });
+  fadeInDown(kids);
 </script>

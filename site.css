@@ -68,18 +68,18 @@ body {
 	color:#333;
 	}
 section {
-	padding:10%;
+	/*padding:5%;*/
 	text-align:center;
-	}
-section.cover {
-	min-height:600px;
-	background:url(images/cover.gif) no-repeat;
-	background-size:cover;
+	height:100vh;
 	}
 section.footer {
-	background:url(images/footer.gif) 10% 90% no-repeat;
-	background-size: cover;
-	color:#ddd;
+	height:6em;
+	}
+section > :first-child {
+	padding-top:10%;
+	}
+section > :last-child {
+	padding-bottom:10%;
 	}
 h1 {
 	font-size:72px;
@@ -95,10 +95,12 @@ a:visited {
 	text-decoration:none;
 	}
 small {
-	font-size:32px;
+	margin-top:6em;
+	font-family:monospace;
+	font-size:18px;
 	}
 small a {
-	color:#fff;
+	color:#777;
 	text-decoration: underline;
 	}
 input {
@@ -110,6 +112,21 @@ input[type='text'] {
 	width:200px;
 	height:24px;
     border: 1px solid #ddd;
+	}
+/* specific */
+section.cover {
+	background:url(images/crab.gif) 100% no-repeat;
+	background-size:cover;
+	}
+section.cover h1 {
+	color:#fff;
+	}
+section.cover h1 span {
+	color:#333;
+	}
+section.past {
+	background:url(images/goat.gif) no-repeat; /* goat not working? */
+	background-size:cover;
 	}
 /* rsvp*/
 .rsvp {
